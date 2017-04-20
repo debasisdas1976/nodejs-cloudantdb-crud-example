@@ -9,6 +9,6 @@ applications:
   domain: mybluemix.net
   name: MyCustomLogger
   host: MyCustomLogger
-  disk_quota: 256M
+  disk_quota: 512M
   services:
   - MyCustomLoggerDB
