@@ -1,5 +1,5 @@
 declared-services:
-  cloudant-nodejs:
+  MyCustomLoggerDB:
     label: cloudantNoSQLDB
     plan: Shared
 applications:
@@ -7,8 +7,8 @@ applications:
   memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: NodeJSCloudantSampleApp
-  host: NodeJSCloudantSampleApp
-  disk_quota: 1024M
+  name: MyCustomLogger
+  host: MyCustomLogger
+  disk_quota: 256M
   services:
-  - cloudant-nodejs
+  - MyCustomLoggerDB
