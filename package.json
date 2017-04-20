@@ -17,10 +17,5 @@
 		"json2csv": "*",
 		"fs": "*",
 		"./routes": "latest"
-	},
-	"repository": {},
-	"engines": {
-     "node": "4.2.4",
-     "npm": "3.10.10"
-  }
+	}
 }
